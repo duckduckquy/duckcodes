@@ -57,11 +57,10 @@ const Bio = () => {
         }}
       />
       <p>
-        Written by <strong>{author.name}</strong> {author.summary}
+        Written by <a href={`https://twitter.com/${social.twitter}`}>
+          Duc-Quy Nguyen
+        </a> {author.summary}
         {`. `}
-        <a href={`https://twitter.com/${social.twitter}`}>
-          You can find me @duckduckquy on Twitter.
-        </a>
       </p>
     </div>
   )
